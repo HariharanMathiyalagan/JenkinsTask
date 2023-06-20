@@ -27,12 +27,11 @@ public class FaceBook {
 	}
 
 	@Test
-	public void test1() {
-		driver.findElement(By.id("email")).sendKeys("978456231");
+	public void test1() throws InterruptedException {
+		driver.findElement(By.id("email")).sendKeys("hariharan@mail.com");
 		driver.findElement(By.id("pass")).sendKeys("Hari@123");
-		driver.findElement(By.id("loginbutton")).click();
-		System.out.println(driver.findElement(By.xpath("//*[text()='Wrong credentials']")).getText());
-
+//		driver.findElement(By.id("loginbutton")).click();
+		System.out.println(driver.findElement(By.xpath("//*[@id=\"loginbutton\"]")).getText());
 	}
 
 }

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-14T23:43:39 IST" name="Suite" finished-at="2023-06-14T23:43:51 IST" duration-ms="12174">
+  <suite started-at="2023-06-20T20:23:17 IST" name="Default suite" finished-at="2023-06-20T20:23:23 IST" duration-ms="5246">
     <groups>
     </groups>
-    <test started-at="2023-06-14T23:43:39 IST" name="Test" finished-at="2023-06-14T23:43:51 IST" duration-ms="12174">
+    <test started-at="2023-06-20T20:23:17 IST" name="Default test" finished-at="2023-06-20T20:23:23 IST" duration-ms="5246">
       <class name="org.test.FaceBook">
-        <test-method is-config="true" signature="beforeLaunch()[pri:0, instance:org.test.FaceBook@3e11f9e9]" started-at="2023-06-14T23:43:39 IST" name="beforeLaunch" finished-at="2023-06-14T23:43:43 IST" duration-ms="3800" status="PASS">
+        <test-method is-config="true" signature="beforeLaunch()[pri:0, instance:org.test.FaceBook@3e11f9e9]" started-at="2023-06-20T20:23:17 IST" name="beforeLaunch" finished-at="2023-06-20T20:23:22 IST" duration-ms="4540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeLaunch -->
-        <test-method signature="test1()[pri:0, instance:org.test.FaceBook@3e11f9e9]" started-at="2023-06-14T23:43:43 IST" name="test1" finished-at="2023-06-14T23:43:51 IST" duration-ms="8125" status="PASS">
+        <test-method signature="test1()[pri:0, instance:org.test.FaceBook@3e11f9e9]" started-at="2023-06-20T20:23:22 IST" name="test1" finished-at="2023-06-20T20:23:22 IST" duration-ms="463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterLaunch()[pri:0, instance:org.test.FaceBook@3e11f9e9]" started-at="2023-06-14T23:43:51 IST" name="afterLaunch" finished-at="2023-06-14T23:43:51 IST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="afterLaunch()[pri:0, instance:org.test.FaceBook@3e11f9e9]" started-at="2023-06-20T20:23:22 IST" name="afterLaunch" finished-at="2023-06-20T20:23:23 IST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterLaunch -->
       </class> <!-- org.test.FaceBook -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
